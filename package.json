@@ -1,0 +1,24 @@
+{
+  "name": "reactive-dom",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-plugin-transform-redom-jsx": "^3.0.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "redom": "^3.27.1"
+  }
+}
